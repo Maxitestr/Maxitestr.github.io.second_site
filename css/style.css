@@ -131,10 +131,6 @@ ul {
   margin-bottom: 60px;
 }
 
-.modul-bot-padding {
-  padding-bottom: 25px;
-}
-
 .items-white-form {
   border-radius: 12px;
   background-color: var(--color_fff);
@@ -382,6 +378,10 @@ ul {
   padding-left: 45px;
 }
 
+.services-list-item:nth-last-child(n + 3) {
+  margin-bottom: 25px;
+}
+
 .services-article-img {
   display: block;
   width: 100%;
@@ -409,7 +409,11 @@ ul {
   color: var(--color_333);
 }
 
-.features-list-item {
+.features-list-item:nth-last-child(n + 5) {
+  margin-bottom: 25px;
+}
+
+.features-list-content {
   padding: 135px 30px 20px 30px;
   color: var(--color_333);
   height: 100%;
@@ -450,6 +454,10 @@ ul {
 
 .list-item-swimmingpool-img {
   background-image: url('../img/features/swimming-pool.png');
+}
+
+.hotels-list-item:nth-last-child(n + 4) {
+  margin-bottom: 25px;
 }
 
 .hotels-list-item-img {
